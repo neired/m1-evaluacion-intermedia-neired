@@ -46,6 +46,7 @@ a {
     background: #3CDBC0;
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 .section1 {
     display: flex;
@@ -57,10 +58,28 @@ a {
     font-family: 'Rubik', sans-serif;
     color:#ffffff;
     font-weight: 900;
-    padding: 0 200px;
     text-align: center;
 }
 
 @media all and (min-width:768px) {
-    
-}
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-logo {
+        padding: 20px 0px 20px 30px;
+    }
+    .section1-h1 {
+        font-size: 40px;
+        width:100%;
+    }
+    .header-menu__list {
+        padding:0 30px 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-menu__list-element-blog {
+        padding: 0 20px 0 0;
+    }
+}   
