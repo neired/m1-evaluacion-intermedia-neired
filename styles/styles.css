@@ -1,0 +1,38 @@
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:0px;
+}
+.header-logo {
+    padding:10px 0;
+}
+.header-menu {
+    position:relative;
+    width:155px;
+}
+.header-menu__list {
+    list-style: none;
+    font-size: 16px;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 0px;
+}
+.header-menu__list-element {
+    margin:0;
+    padding:0 0 13px 0;
+}
+a {
+    text-decoration: none;
+    color:#4a4a4a;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.section1 {
+    background: #3CDBC0;
+
+}
