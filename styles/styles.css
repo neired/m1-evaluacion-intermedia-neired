@@ -1,4 +1,10 @@
 /*HEADER*/
+.link {
+    text-decoration: none;
+    color:#4a4a4a;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
 .header {
     width:100%;
     margin:0px;
@@ -31,14 +37,15 @@
     margin-right:20px;
     padding:0 0 13px 0;
 }
-a {
-    text-decoration: none;
-    color:#4a4a4a;
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
-}
 
-/*BODY*/
+/*MAIN*/
+.section1-h1 {
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    color:#ffffff;
+    font-weight: 900;
+    text-align: center;
+}
 .body {
     display: flex;
     flex-direction: column;
@@ -57,13 +64,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.section1-h1 {
-    font-size: 30px;
-    font-family: 'Rubik', sans-serif;
-    color:#ffffff;
-    font-weight: 900;
-    text-align: center;
 }
 
 @media all and (min-width:768px) {
