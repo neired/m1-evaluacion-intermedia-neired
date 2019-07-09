@@ -66,6 +66,9 @@
 .section1-h1 {
     font-size: 30px;
 }
+.span {
+    display: block;
+}
 
 @media all and (min-width:768px) {
     .header {
